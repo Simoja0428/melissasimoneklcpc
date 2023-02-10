@@ -1,0 +1,185 @@
+.masker{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.form-container{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 70%;
+    height: 80vh;
+    background-color: cadetblue;
+}
+
+.horz{
+    display: flex;
+    flex-direction: row;
+}
+
+.elements{
+    margin: auto;
+    padding-right: 50px;
+}
+
+.center-too{
+    padding-top: 10px;
+    display: flex;
+}
+
+.form-container h4 {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    color: rgb(14, 81, 144);
+}
+
+.dis{
+    color: black;
+    max-width: 470px;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.titleLine {
+    background-color: rgb(88,88,188);
+    width: 100%;
+    height: 1px;
+    border-top: 5px dotted black;
+    line-height: 80%;
+    margin-bottom: 1rem;
+}
+
+.horz label{
+    padding-left: 60px;
+}
+
+label {
+    padding-right: 10px;
+    font-family: fantasy;
+    font-size: large;
+    color: rgb(88,88,188);
+}
+
+.center-too textarea{
+    width: 550px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    font-size: small;
+}
+
+.ms {
+    padding-top: 5rem;
+}
+
+.horz input{
+    padding-left: 10px;
+    margin-top: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    font-size: 12px;
+    height: 25px;
+}
+
+.sub {
+    position: relative;
+    width: 150px;
+    padding-top: 10px;
+    left: 38rem;
+}
+
+.sub input {
+    background-color: rgb(88,88,188);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: rgba(255, 255, 255, 0.612);
+}
+
+@media screen and (max-width: 980px){
+
+    .form-container{
+        max-width: 100%;
+        overflow-x: hidden;
+        width:100%;
+        height: 100%;
+        max-height: 100vh;
+    }
+    
+    .horz{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .elements{
+        margin: auto;
+        padding-right: 50px;
+    }
+    
+    .center-too{
+        padding-top: 10px;
+        display: flex;
+        position: relative;
+    }
+    
+    .form-container h4 {
+        margin: auto;
+        font-size: medium;
+        color: rgb(14, 81, 144);
+    }
+
+    .ms {
+        padding-top: 2.5rem;
+    }
+    
+    .titleLine {
+        background-color: green;
+        width: 100%;
+        height: 1px;
+        border-top: 5px dotted black;
+        line-height: 80%;
+        margin-bottom: 1rem;
+    }
+    
+    .horz label{
+        padding-left: 5px;
+    }
+
+    label {
+        padding-right: 10px;
+        padding-top: 5px;
+        font-size: small;
+        font-family: serif;
+        color: rgb(14, 81, 144);
+    }
+
+    .center-too textarea{
+        width: 270px;
+        height: 100px;
+        border: 1px solid black;
+        font-size: small;
+    }
+    
+    .horz input{
+        font-size: 9px;
+    }
+    
+    .sub {
+        position: relative;
+        padding-top: 10px;
+        left: 20rem;
+    } 
+}

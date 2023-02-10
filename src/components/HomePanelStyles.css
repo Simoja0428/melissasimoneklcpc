@@ -1,0 +1,91 @@
+.home-panel{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.office{
+    width: 100%;
+    height: 75vh;
+}
+
+.mask{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 75vh;
+    position: relative;
+}
+
+.mask::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgb(2, 12, 50, .3);
+}
+
+.wel{
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(88, 88, 188);
+    font-style: italic;
+    padding-bottom: 1rem;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.welcome-panel-outer{
+    background-color:rgb(166, 157, 60,.65);
+    max-width: 575px;
+    height: 35vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.welcome-panel-inner{
+    text-align: center;
+    height: 25vh;
+    border: 3px dotted rgb(88,88,188);
+}
+
+.welcome{
+    max-width: 575px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.838);
+}
+
+.home-info{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.org-hours{
+    flex-direction: column;
+    padding-left: 50px;
+    margin-top: 75px;
+}
+
+.hours-title{
+    text-align: center;
+    color: rgb(88,88,188);
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+.hours{
+    color: black;
+}
