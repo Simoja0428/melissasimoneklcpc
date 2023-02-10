@@ -70,4 +70,17 @@ p{
     .footer-container{
         grid-template-columns: 1fr;
     }
+    .right{
+        padding-top: 0px;
+    }
+
+    h4{
+        font-size: 14px;
+        padding-bottom: 0.5;
+        color: black;
+    }
+
+    p{
+        font-size: 14px;
+    }
 }

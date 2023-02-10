@@ -73,6 +73,7 @@
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 14px;
 }
 
 .bio-title{
@@ -101,4 +102,107 @@
 
 .bio p{
     color: black;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1040px){
+
+    .org-h{
+        flex-direction: column;
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .org-add{
+        flex-direction: column;
+        margin-top: 25px;
+        text-align: center;
+        padding-left: 20px;
+    }
+
+    .title-h{
+        color: rgb(88,88,188);
+        font-style: italic;
+        padding-bottom: 15px;
+    }
+
+    .addy-h{
+        color: rgb(88,88,188);
+        font-style: italic;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    .hs, .address {
+        color: black;
+        font-size: 13px;
+    }
+
+    .org-all{
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 45px;
+    }
+
+    .bio-pan{
+        color: rgb(88,88,188);
+        font-style: italic;
+        padding-bottom: 15px;
+        padding-top: 5px;
+        padding-left: 10px;
+        font-size: 14px;
+    }
+
+    .info-pan{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        width: 95%;
+        height: 85vh;
+        background-color: cadetblue;
+    }
+
+    .who-we-are p{
+        color: black;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+
+    .bio-title{
+        display: flex;
+        flex-direction: row;
+        padding-left: 10px;
+    }
+
+    .bio-photo{
+        max-height: 20vh;
+    }
+
+    .bio-name {
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-left: 25px;
+        color: black;
+        font-style: italic;
+        font-size: 14px;
+    }
+
+    .bio {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-left: 10px;
+    }
+
+    .bio p{
+        color: black;
+        font-size: 12px;
+    }
+
 }
