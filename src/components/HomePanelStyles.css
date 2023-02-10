@@ -126,7 +126,7 @@
         max-width: 575px;
         text-align: center;
         color: rgba(0, 0, 0, 0.838);
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .org-hours{
@@ -161,14 +161,14 @@
     
     .office{
         width: 100%;
-        height: 55vh;
+        height: 45vh;
     }
     
     .mask{
         margin-left: auto;
         margin-right: auto;
         width: 70%;
-        height: 55vh;
+        height: 45vh;
         position: relative;
     }
     
