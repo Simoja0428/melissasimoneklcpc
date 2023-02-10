@@ -124,9 +124,9 @@
     
     .welcome{
         max-width: 575px;
-        text-align: center;
+        text-align: left;
         color: rgba(0, 0, 0, 0.838);
-        font-size: 12px;
+        font-size: 13.5px;
     }
 
     .org-hours{
