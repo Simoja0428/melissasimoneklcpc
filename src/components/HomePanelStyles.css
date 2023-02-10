@@ -106,19 +106,19 @@
     .welcome-panel-outer{
         background-color:rgb(166, 157, 60,.65);
         max-width: 530px;
-        height: 35vh;
+        height: 45vh;
         margin-left: 5px;
         margin-right: auto;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        padding-top: 2.5rem;
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
+        padding-top: .5rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
     }
     
     .welcome-panel-inner{
         text-align: center;
-        height: 27vh;
+        height: 42vh;
         border: 3px dotted rgb(88,88,188);
     }
     
@@ -126,7 +126,7 @@
         max-width: 575px;
         text-align: center;
         color: rgba(0, 0, 0, 0.838);
-        font-size: 14px;
+        font-size: 8px;
     }
 
     .org-hours{

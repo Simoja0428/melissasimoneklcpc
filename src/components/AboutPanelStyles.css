@@ -135,7 +135,7 @@
 
     .hs, .address {
         color: black;
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .org-all{
@@ -163,7 +163,7 @@
         margin-right: auto;
         padding: 10px;
         width: 95%;
-        height: 85vh;
+        height: 95vh;
         background-color: cadetblue;
     }
 
