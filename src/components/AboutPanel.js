@@ -13,7 +13,7 @@ const AboutPanel = () => {
                             <br/>
                             Tuesday:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;10:00am - 8:00pm <br/>
                             <br/>
-                            Wednesday:&emsp;&emsp;10:00am - 8:00pm <br/>
+                            Wednesday:&emsp;&emsp;&emsp;&emsp;10:00am - 8:00pm <br/>
                             <br/>
                             Thursday:&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;10:00am - 8:00pm <br/>
                         </p>
