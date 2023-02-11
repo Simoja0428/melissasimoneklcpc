@@ -9,9 +9,9 @@ const AboutPanel = () => {
                 <div className="org-all">
                     <div className="org-h">
                         <h2 className="title-h"> Hours: </h2>
-                        <p className="hs"> Monday:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;10:00am - 8:00pm <br/>
+                        <p className="hs"> Monday:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;10:00am - 8:00pm <br/>
                             <br/>
-                            Tuesday:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;10:00am - 8:00pm <br/>
+                            Tuesday:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;10:00am - 8:00pm <br/>
                             <br/>
                             Wednesday:&emsp;&emsp;&emsp;&emsp;10:00am - 8:00pm <br/>
                             <br/>
