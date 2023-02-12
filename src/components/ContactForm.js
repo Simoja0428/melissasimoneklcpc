@@ -11,6 +11,7 @@ export const ContactForm = () => {
     if( document.getElementById("nameF").value == "" || document.getElementById("emailF").value == "" || document.getElementById("messageF").value == "" ||  document.getElementById("messageF").value == " \n\tMessage successfully sent to Melissa! You can expect a \n\tresponse within the next 24-72 hours! Please note if you are in crisis,\n\tdo not wait for a reply, please contact 9-1-1 immedately.\n\n\t\t -Melissa Simonek LCPC")
     {
       lock = true;
+      document.getElementById("error").innerHTML = "Error: Please do not spam the form!";
     }
     if (lock == false)
     {
@@ -25,8 +26,6 @@ export const ContactForm = () => {
         document.getElementById("emailF").value = "";
         document.getElementById("messageF").value = " \n\tMessage successfully sent to Melissa! You can expect a \n\tresponse within the next 24-72 hours! Please note if you are in crisis,\n\tdo not wait for a reply, please contact 9-1-1 immedately.\n\n\t\t -Melissa Simonek LCPC";
     }
-    else if (lock == true)
-        document.getElementById("error").value = "Error: Please do not spam the form!";
   };
   return (
     <div className='masker'>
@@ -36,7 +35,7 @@ export const ContactForm = () => {
             initial consultation messages. If you are in a crisis, 
             please call 9-1-1 immedately instead*</p>
         <div className="titleLine"></div>
-        <div id="error" className='error'> <p> </p></div>
+        <label id="error" className='error'> </label>
         <div className="elements">
           <form ref={form} onSubmit={sendEmail}>
               <div className="horz">
