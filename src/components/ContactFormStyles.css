@@ -109,6 +109,13 @@ label {
     color: rgba(255, 255, 255, 0.612);
 }
 
+.error p{
+    font-size: 20px;
+    text-align: center;
+    color: crimson;
+    font-style: italic;
+}
+
 @media screen and (max-width: 980px){
 
     .form-container{
