@@ -27,20 +27,19 @@ const AboutPanel = () => {
                 </div>
                 <div className="info-pan">
                     <div className="bio-pan">
-                        <h2> What do we do???</h2>
+                        <h2> What do I do???</h2>
                     </div>
                     <div className="who-we-are">
                         <p>Melissa Simonek LCPC, is a therapeutic practice based out of Orland Park
                         that focuses on providing exceptional mental health services to the residents of Southwest
-                        Suburban Chicago! We offer a variety of services for adolescents and adults in an effort
-                        to cater to the specific needs of our clients! We have experience working with a variety of
+                        Suburban Chicago! I offer a variety of services for adolescents and adults in an effort
+                        to cater to the specific needs of my clients! I have experience working with a variety of
                         clients in different settings including, but not limited to: in-office visits, telehealth visits,
-                        on-site school visits, on-site corporate visits, on-site law enforcement training, and on-site
-                        visits to incarcerated individuals. We believe mental health services should be accessible to
-                        everyone and strive to make that possible!</p>
+                        on-site school visits, on-site corporate visits, and on-site law enforcement training.  
+                        I believe mental health services should be accessible to everyone and strive to make that possible!</p>
                     </div>
                     <div className="bio-pan">
-                        <h2> Who are we???</h2>
+                        <h2> Who am I???</h2>
                     </div>
                     <div className="bio-title">
                         <img src= {Melissa} alt="bio-photo" className="bio-photo"></img> 
@@ -51,11 +50,13 @@ const AboutPanel = () => {
                         spending more than 20 years living in Orland Park, Melissa moved back to Homer Glen in
                         2022 to pursue her ambitions of opening her own private practice. Melissa attended
                         Lockport Township Highschool before pursuing her BA at Governors' State University and her
-                        MA in Clincial Mental Health Counseling at Lewis University. In her spare time, Melissa 
-                        enjoys relaxing in warm weather and travelling. Whether its the mountains of Wyoming
-                        or the beaches of Florida, Melissa loves to travel and experience new things with her
-                        family! Melissa loves sharing her experiences with her longtime partner, two kids, dog, and 
-                        two cats that continually remind her why she loves providing mental health services to everyday people.
+                        MA in Clincial Mental Health Counseling at Lewis University. Melissa has a wide array 
+                        of experiences with different diagnoses from working at previous therapeutic practices. Melissa
+                        offers a diverse variety of different theraputic services such as: therapy for families,
+                        parenting education, and marriage counseling. Melissa was trained in the Gottman model of psychology, she is grounded 
+                        in a cognitive behavioral mode and additionally she emphasizes the formation of sound 
+                        therapeutic relationships where individuals are valued and helped to aspire to their full potential.
+
                     </p>
                     </div>
                 </div>

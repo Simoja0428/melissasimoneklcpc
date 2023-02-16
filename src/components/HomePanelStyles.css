@@ -44,7 +44,7 @@
 .welcome-panel-outer{
     background-color:rgb(166, 157, 60,.65);
     max-width: 575px;
-    height: 35vh;
+    height: 40vh;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
@@ -56,7 +56,7 @@
 
 .welcome-panel-inner{
     text-align: center;
-    height: 25vh;
+    height: 30vh;
     border: 3px dotted rgb(88,88,188);
 }
 

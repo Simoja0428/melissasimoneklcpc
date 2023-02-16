@@ -9,10 +9,10 @@ const HomePanel = () => {
             <div className="welcome-panel-outer">
                 <div className="welcome-panel-inner">
                     <h1 className="wel"> Hello and Welcome! </h1>
-                    <p className="welcome"> Welcome to Melissa Simonek LCPC! We are a therapeutic practice based out of Orland Park
-                        that focuses on providing exceptional mental health services to the residents of Southwest
-                        Suburban Chicago! We offer a variety of services for adolescents and adults in an effort
-                        to cater to the specific needs of our clients!
+                    <p className="welcome"> Welcome to Melissa Simonek LCPC! I am a Licensed Clinical Professional Counselor 
+                    based out of Orland Park that focuses on providing exceptional mental health services to the residents 
+                    of the Southwest Suburbs and in Chicagoland. I offer a variety of services for adolescents and adults 
+                    in an effort to taylor to the specific needs of my clients!
                     </p>
                 </div>
             </div>

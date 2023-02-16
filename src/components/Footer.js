@@ -24,7 +24,7 @@ const Footer = () => {
                 <p>
                     The following website serves the sole purpose of being an informational 
                     website that is meant to provide users with a place to seek out 
-                    more information on recieving theraputic services through Melissa Simonek 
+                    more information on receiving theraputic services through Melissa Simonek 
                     LCPC. This website is solely operated and owned by Melissa Simonek LCPC.
                 </p>
             </div>
